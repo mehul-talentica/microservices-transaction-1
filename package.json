@@ -1,0 +1,32 @@
+{
+  "name": "microservices-user",
+  "version": "1.0.0",
+  "description": "Microservice For User",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehul-talentica/microservices-user.git"
+  },
+  "keywords": [
+    "node",
+    "microservices"
+  ],
+  "author": "Mehul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehul-talentica/microservices-user/issues"
+  },
+  "homepage": "https://github.com/mehul-talentica/microservices-user#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.6",
+    "request": "^2.83.0"
+  }
+}
